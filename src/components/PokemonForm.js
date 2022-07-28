@@ -11,8 +11,18 @@ function PokemonForm() {
         }}
       >
         <Form.Group widths="equal">
-          <Form.Input fluid label="Name" placeholder="Name" name="name" />
-          <Form.Input fluid label="hp" placeholder="hp" name="hp" />
+          <Form.Input 
+            fluid 
+            label="Name" 
+            placeholder="Name" 
+            name="name" 
+          />
+          <Form.Input 
+            fluid 
+            label="hp" 
+            placeholder="hp" 
+            name="hp" 
+          />
           <Form.Input
             fluid
             label="Front Image URL"
